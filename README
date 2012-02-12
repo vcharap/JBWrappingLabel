@@ -1,0 +1,5 @@
+JBWrappingLabel
+
+A crude little UILabel alternative focused specifically on wrapping lines. Made because reading APIs is boring.
+
+Intialize with a CGRect, This rect should specify the dimensions of ONE line of text. Set the baseLabel, properties from this labelwill determine how the text looks. Set the maxLines, this will determine the maximum number of lines to use. Finally set the text and call arrangeLabel. arrangeLabel will resize the height of the view to fit up to maxLines of text. (height of intial frame * n, n <= maxLines)  
